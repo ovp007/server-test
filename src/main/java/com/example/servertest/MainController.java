@@ -10,4 +10,9 @@ public class MainController {
     public String hello() {
         return "Hello World";
     }
+
+    @GetMapping("/")
+    public String home() {
+        return "Home";
+    }
 }
